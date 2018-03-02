@@ -10,22 +10,23 @@
   </thead>
 
   <tbody>
+    <%= link_to 'New Email', new_email_path %>
     <% @emails.each do |email| %>
       <tr>
         <td><%= link_to "#{email.object}", email, :remote => true, :class => 'show_email' %></td>
 
         <td><%= link_to 'Destroy', email, method: :delete, data: { confirm: 'Are you sure?' }, :remote => true, :class => 'delete_email' %></td>
 
-        <td>
-          <div id="current_mail">
-
-          </div>
-        </td>
       </tr>
     <% end %>
   </tbody>
 </table>
 
 <br>
+<% while %>
+<div>
 
-<%= link_to 'New Email', new_email_path %>
+
+<id="current_mail">
+</div>
+<% end %>

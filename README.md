@@ -1,24 +1,20 @@
-# README
+# ATTENTION, SUPER IMPORTANT DE LIRE, CAR J'AI EU UN SOUCI D'ORDI
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+###Cher correcteur
 
-* Ruby version
+Mon ordi a prit la décision unilatérale de décider sur les coups de 20h.
+Il est 01:28 et je n'ai 5-10min à chaque fois que je le démarre pour avancer avant qu'il ne me lâche...
 
-* System dependencies
 
-* Configuration
+Mon Heroku fonction, mais je n'ai malheureusement pas eu le temps de créer un formulaire permettant de créer des mails.
 
-* Database creation
+Pour contrôler mon travail, tu peux cloner mon repos, faire un petit bundle install --without production, un rails db:migrate, lancer un rails server et enfin envoyer un petit localhost des familles.
 
-* Database initialization
+Ouvre maintenant une console (rails c) et cré 4-5 nouveaux emails avec au minimum un objet (Email.create(object:"email1").
 
-* How to run the test suite
+Mon programme fonction normalement comme demandé. Le seul souci, c'est qu'une fois le mail supprimer il faut en afficher un nouveau pour supprimer l'affichage du précédent.
 
-* Services (job queues, cache servers, search engines, etc.)
+Voilà, désolé, et merci de ta patience gentil correcteur ;)
 
-* Deployment instructions
-
-* ...
+Mon ordi faisant des siennes, je regarderai slack sur mon phone alors n'hésite pas à me contacter si il y a un problème.
